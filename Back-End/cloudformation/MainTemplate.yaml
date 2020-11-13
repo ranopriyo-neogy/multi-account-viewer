@@ -6,7 +6,7 @@ Description: >
 Parameters:
   Accounts:
     Type: String
-    Default: '111111111111,222222222222,333333333333,444444444444,55555555555'
+    Default: '685879717434'
     Description: Account Numbers for all your sub accounts and admin account seperated by commas e.g '111111111111,2222222222222'
   LogRetention:
     Type: Number
@@ -18,15 +18,15 @@ Parameters:
     Description: Name of DynamoDB table
   SourceAccount:
     Type: Number
-    Default: '111111111111'
+    Default: '534669164359'
     Description: Administrator Account that is running this cloudformation template (Admin Account)
   SourceRegion:
     Type: String
-    Default: 'ap-southeast-2'
+    Default: 'us-east-1'
     Description: Region this template is running out of (Admin Account)
   Regions:
     Type: String
-    Default: 'ap-southeast-2,us-east-1'
+    Default: 'us-east-1'
     Description: Regions you want watched, minimum us-east-1 for global resources like IAM.
   # US East (Ohio)	          us-east-2
   # US East (N. Virginia)	    us-east-1
@@ -55,7 +55,7 @@ Parameters:
     Default: CrossAccountAccess
   LambdaBucketName:
     Type: String
-    Default: your-private-s3-bucket
+    Default: multi-account-viewer-s3
     Description: Name of your S3 private bucket in Admin Account that holds the lambda zip file
   LambdaPackage:
     Type: String

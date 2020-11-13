@@ -35,7 +35,7 @@ Amplify.configure({
   // OPTIONAL - if your API requires authentication 
   Auth: {
     // REQUIRED - Amazon Cognito Region
-    region: 'ap-southeast-2',
+    region: 'us-east-1',
     // OPTIONAL - Amazon Cognito User Pool ID
     userPoolId: process.env.REACT_APP_USERPOOL_ID,
     // OPTIONAL - Amazon Cognito Web Client ID (26-char alphanumeric string)
@@ -46,7 +46,7 @@ Amplify.configure({
       {
         name: "MyAPIGatewayAPI",
         endpoint: process.env.REACT_APP_APIG_ENDPOINT,
-        region: 'ap-southeast-2',
+        region: 'us-east-1',
         custom_header: async () => {
           return { Authorization: (await Auth.currentSession()).idToken.jwtToken };
         }
