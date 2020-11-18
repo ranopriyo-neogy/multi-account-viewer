@@ -6,7 +6,7 @@ Description: >
 Parameters:
   Accounts:
     Type: String
-    Default: '685879717434'
+    Default: 'xxxxx'
     Description: Account Numbers for all your sub accounts and admin account seperated by commas e.g '111111111111,2222222222222'
   LogRetention:
     Type: Number
@@ -18,7 +18,7 @@ Parameters:
     Description: Name of DynamoDB table
   SourceAccount:
     Type: Number
-    Default: '534669164359'
+    Default: 'xxxxxx'
     Description: Administrator Account that is running this cloudformation template (Admin Account)
   SourceRegion:
     Type: String
