@@ -1,20 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-frontend-dev-101641-authRole",
-      "UnauthRoleArn": "arn:aws:iam::534669164359:role/amplify-frontend-dev-101641-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::534669164359:role/amplify-frontend-dev-101641-authRole",
+      "AuthRoleName": "xxxxxx",
+      "UnauthRoleArn": "xxxx",
+      "AuthRoleArn": "xxxxxx",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-frontend-dev-101641-deployment",
-      "UnauthRoleName": "amplify-frontend-dev-101641-unauthRole",
+      "DeploymentBucketName": "xxxxx",
+      "UnauthRoleName": "xxxx",
       "StackName": "amplify-frontend-dev-101641",
-      "StackId": "arn:aws:cloudformation:us-east-1:534669164359:stack/amplify-frontend-dev-101641/3ee07540-25c3-11eb-bb69-0a6641f83659",
-      "AmplifyAppId": "d1ogmrkkze3vom"
+      "StackId": "xxxxx",
+      "AmplifyAppId": "xxxxx"
     },
     "categories": {
       "auth": {
         "frontend5a5b548f": {
-          "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"511527104648-u6m5q93qc3cpr8nmaci472q37kavn3tq.apps.googleusercontent.com\",\"client_secret\":\"cAu74bCRzvneR6o1JC4hOBJt\"}]"
+          "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"xxxx\",\"client_secret\":\"xxxxxx\"}]"
         }
       }
     }
